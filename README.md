@@ -1,6 +1,6 @@
 # Genome Analysis Tools
 
-This repository contains a collection of bioinformatics tools for genome analysis. I will keep adding more scripts based on the workflows I used to analyse genomes during my PhD.
+This repository contains a collection of bioinformatics tools and scripts for genome analysis after assembly/annotation. The goal is to provide a combination of workflows and analysis that were useful to me in the past, as well as some things I want to improve at.
 
 ## Tools
 
