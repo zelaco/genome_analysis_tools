@@ -25,10 +25,14 @@ pip install -r requirements.txt
 
 **Genome Statistics**
 ```bash
-python genome_statistics/genome_statistics.py --input-dir path/to/fasta-files --output-file path/to/output.csv
+python genome_statistics/genome_statistics.py --input-dir path/to/fasta-files \
+                                              --output-file path/to/output.csv
 ```
 
-**Retrieve Antibiotic Resistance Genes(ARG) sequences**
+**Retrieve Antibiotic Resistance Genes (ARG) sequences based on the output file from ABRicate**
 ```bash
-python retrieve_arg_seqs/seq_retrieve.py --excel path/to/excel-file --fasta-dir path/to/genome-containing-directory --nucleotide-output path/to/nucleotide_sequences.fasta --protein-output path/to/protein_sequences.fasta
+python retrieve_arg_seqs/seq_retrieve.py --excel path/to/excel-file \
+                                         --fasta-dir path/to/genome-containing-directory \
+                                         --nucleotide-output path/to/nucleotide_sequences.fasta \
+                                         --protein-output path/to/protein_sequences.fasta
 ```
